@@ -1,0 +1,60 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: $dark-blue;
+  width: 88%;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  h1 {
+    color: $white;
+    margin-bottom: 1rem;
+  }
+  p {
+    color: $light-grey;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+}
+
+.star {
+  background-color: $transparent-white;
+  border-radius: 5rem;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.rating-numbers-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-number {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 10px;
+  background: $transparent-white;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 2.5rem;
+  padding: 10px;
+  background-color: $orange;
+  width: 100%;
+  font-family: "Overpass", sans-serif;
+  color: $white;
+  letter-spacing: 0.2rem;
+}
